@@ -54,7 +54,6 @@ def geocode(address):
 
 
 
-# https://docs.mongodb.com/manual/reference/operator/query/near/
 def withGeoQuery(location,maxDistance=10000,minDistance=0,field="location"):
     return {
        field: {
